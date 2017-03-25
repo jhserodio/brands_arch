@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const styleVites = {
   background: 'black',
@@ -18,6 +18,6 @@ const Vites = props => (
       Vites
     </h1>
   </div>
-);
+)
 
-export default Vites;
+export default Vites

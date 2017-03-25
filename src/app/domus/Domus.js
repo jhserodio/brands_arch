@@ -1,6 +1,6 @@
 import React from 'react';
 
-const styleHeader = {
+const styleDomus = {
   background: 'black',
   color: 'white',
 }
