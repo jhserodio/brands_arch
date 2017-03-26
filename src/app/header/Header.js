@@ -1,23 +1,24 @@
-import React from 'react';
+import React from 'react'
+import styled from 'styled-components'
 
-const styleHeader = {
-  background: 'black',
-  color: 'white',
-}
-
-const styleLogo = {
-  margin: 0,
-  padding: '16px',
-  fontSize: '14px',
-  textTransform: 'uppercase'
-}
+const Wrapper = styled.div`
+  background: black;
+  color: white;
+  
+  h1 {
+    margin: 0;
+    padding: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+`
 
 const Header = props => (
-  <header style={styleHeader}>
-    <h1 style={styleLogo}>
+  <Wrapper>
+    <h1>
       brands
     </h1>
-  </header>
-);
+  </Wrapper>
+)
 
-export default Header;
+export default Header
