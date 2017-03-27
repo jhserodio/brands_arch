@@ -1,23 +1,29 @@
-import React from 'react';
+import React from 'react'
+import styled from 'styled-components'
 
-const styleSantorini = {
-  background: 'black',
-  color: 'white',
-}
+// #CAF6FF
 
-const styleLogo = {
-  margin: 0,
-  padding: '16px',
-  fontSize: '14px',
-  textTransform: 'uppercase'
-}
+const Wrapper = styled.div`
+  background: #efefef;
+  color: #121212;
+
+  h1 {
+    margin: 0;
+    font-family: 'Roboto';
+    padding: 16px;
+    letter-spacing: .05em;
+    font-weight: normal;
+    font-size: 40px;
+    letter-space:
+  }
+`
 
 const Santorini = props => (
-  <div style={styleSantorini}>
-    <h1 style={styleLogo}>
+  <Wrapper>
+    <h1>
       Santorini
     </h1>
-  </div>
-);
+  </Wrapper>
+)
 
-export default Santorini;
+export default Santorini
